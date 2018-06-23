@@ -9,7 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/takama/daemon"
+	// external
+	// ""
+
+	// internal - core
+	daemon "github.com/sniperkit/snk.golang.daemon/pkg"
 )
 
 const (

@@ -8,8 +8,11 @@ import (
 	"syscall"
 	"time"
 
+	// external
 	"github.com/robfig/cron"
-	"github.com/takama/daemon"
+
+	// internal - core
+	daemon "github.com/sniperkit/snk.golang.daemon/pkg"
 )
 
 const (
